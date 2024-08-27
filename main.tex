@@ -150,6 +150,40 @@
 %
 %
 
+% ========  Paul McCherry Changes
+% lscape.sty Produce landscape pages in a (mainly) portrait document.
+\usepackage{lscape}
+% usage
+% \begin{landscape}
+% \end{landscape}
+
+% Create easily seeable TODO Notes 
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+% Usage
+%\todo[inline]{text here}
+
+%create tabular tables
+\usepackage{tabularx}
+
+% change starting quotes ie " to ``
+\usepackage{quotes}
+
+% Use formulaes
+\usepackage{amsmath}
+%Usage
+%\begin{equation}
+
+\usepackage{longtable}
+%Usage
+%\begin{longtable}{| p{.20\textwidth} | p{.80\textwidth} |}
+%
+%
+% Add a new Column type 
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+\usepackage{setspace}
+
+%========== End P.McCherry Changes ======
+
 
 \begin{document}
 \pagenumbering{roman}
